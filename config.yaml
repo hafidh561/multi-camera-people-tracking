@@ -1,0 +1,15 @@
+video_path: "./sample_video/video_1"
+object_detection_model_path: "./pretrained_models/yolov4-tiny.onnx"
+object_detection_classes_path: "./pretrained_models/coco.names"
+feature_extraction_model_path: "./pretrained_models/osnet_ain_x1_0_M.onnx"
+size_each_camera_image: [640, 480]
+resize_all_camera_image: 0.8
+object_detection_threshold: 0.7
+feature_extraction_threshold: 0.42
+inference_model_device: "cpu"
+max_gallery_set_each_person: 512
+display_video_camera_tracking: true
+save_video_camera_tracking: false
+fps_save_video_camera_tracking: 30.0
+output_path_name_save_video_camera_tracking: "./"
+output_name_save_video_camera_tracking: "output"
